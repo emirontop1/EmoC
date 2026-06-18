@@ -52,7 +52,8 @@ end
 
 -- ANA PENCERE OLUŞTURUCU
 function EmoC:CreateWindow(mainTitle, subTitleText, config)
-	config = config or {}
+	
+    config = config or {}
 	local minWidth = config.minWidth or 350
 	local maxWidth = config.maxWidth or 800
 	
