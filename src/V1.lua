@@ -501,3 +501,4 @@ function EmoC:CreateWindow(mainTitle, subTitleText, config)
 	return WindowObj
 end
 
+return EmoC
