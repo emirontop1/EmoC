@@ -51,7 +51,7 @@ local function LoadIcon(imageLabel, iconName)
 end
 
 -- ANA PENCERE OLUŞTURUCU
-function Library:CreateWindow(mainTitle, subTitleText, config)
+function EmoC:CreateWindow(mainTitle, subTitleText, config)
 	config = config or {}
 	local minWidth = config.minWidth or 350
 	local maxWidth = config.maxWidth or 800
