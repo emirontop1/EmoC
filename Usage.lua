@@ -1,11 +1,11 @@
-local EmoC = 
+_G.Version = "V1" -- Değişken adı 'Version' olarak kaldı
+local EmoC = loadstring(game:HttpGet('https://raw.githubusercontent.com/emirontop1/EmoC/refs/heads/main/src/' .. _G.Version .. '.lua'))()
 
-local MyWindow = Library:CreateWindow("Wind UI Ultimate", "Gelişmiş Yönetim Paneli", {
-    icon = "shield-check", -- Başlık yanındaki ikon adı
-    minWidth = 400,        -- Minimum genişlik
-    maxWidth = 800         -- Maksimum genişlik
+local MyWindow = EmoC:CreateWindow("Wind UI Ultimate", "Gelişmiş Yönetim Paneli", {
+    icon = "shield-check", 
+    minWidth = 400,        
+    maxWidth = 800         
 })
-
 
 local HomeTab = MyWindow:CreateTab("Ana Sayfa", "Genel Ayarlar ve Durum", "home")
 
