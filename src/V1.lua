@@ -6,7 +6,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
-local Library = {}
+local EmoC = {}
 
 --------------------------------------------------------------------
 -- İKON SİSTEMİ (ImageRectOffset Hatası Giderildi)
