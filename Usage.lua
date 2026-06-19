@@ -1,4 +1,4 @@
-_G.Version = "V2" -- Değişken adı 'Version' olarak kaldı
+_G.Version = "V3" -- Değişken adı 'Version' olarak kaldı
 local EmoC = loadstring(game:HttpGet('https://raw.githubusercontent.com/emirontop1/EmoC/refs/heads/main/src/' .. _G.Version .. '.lua'))()
 
 local Config = {
